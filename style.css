@@ -46,3 +46,19 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.hero {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.img-placeholder {
+    width: 50%;
+    height: 200px;
+    background-color: var(--gray);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
