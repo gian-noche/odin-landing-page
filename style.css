@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --dark-blue: #1f2937;
+    --white: #f9faf8;
+    --light-blue: #3882f6;
+    --gray: #e5e7eb;
+
+    --font-weight-normal: 400;
+    --font-weight-light: 300;
+    --font-weight-black: 900;
+}
 
 html {
     font-size: 16px;
