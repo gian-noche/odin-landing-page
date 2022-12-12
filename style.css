@@ -62,3 +62,31 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.info {
+    text-align: center;
+}
+
+.flex-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+    width: 80%;
+    margin: auto;
+}
+
+.column {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: 3px solid var(--light-blue);
+    border-radius: 20px;
+}
